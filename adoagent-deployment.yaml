@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: azure-devops-agent
-        image: furkanakgun/azure-devops-agent:latest
+        image: furkanakgun/azure-devops-agent
         env:
         - name: AZP_URL
           value: "https://dev.azure.com/furkanakgun81"
